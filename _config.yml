@@ -17,20 +17,19 @@ title :  Codenot's Blog
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : Codenot
   
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:simpleyyt@gmail.com
-  Github : https://github.com/Simpleyyt
-  WeiBo : http://www.weibo.com/u/1836017133
-  Google+ : https://plus.google.com/103860633659538888207?rel=author
+  e-mail : mailto:codenot@msn.com
+  Github : https://github.com/codenot
+  Twitter: http://twitter.com/sundayls
   
 # Links showed on the footer
 #
 links :
-  Yitao's Blog : http://simpleyyt.github.io/
+  Codenot's Blog: http://codenot.github.io/
 
 # The search engine. Only support google custom search engine.
 #
@@ -70,7 +69,7 @@ auto_loadmore : true
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://simpleyyt.github.io
+production_url : http://codenot.me
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -114,9 +113,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  archive_path: /archive.html
   atom_path : /atom.xml
   rss_path : /rss.xml
   about_path : /about.html
@@ -129,7 +128,7 @@ JB :
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : simpleyyt
+      short_name : codenot
     disqus :
       short_name : simpleyyt
     livefyre :
