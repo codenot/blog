@@ -84,7 +84,7 @@
 	float:left;
 }
 .journal-cat-box {
-	color:#FF00FF;
+	color:#FFF;
 	text-transform: capitalize;
 	text-align: center;
 	font-weight:bold;
@@ -92,7 +92,6 @@
 	width: 64px;
 	margin:12px auto 0;
 	height:49px;
-#    background: #FF0000;
 #	background:url('../../img/journal/category-icons/other.png');
 	line-height:49px;
 	text-overflow: ellipsis;
