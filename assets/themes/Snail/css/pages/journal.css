@@ -84,20 +84,21 @@
 	float:left;
 }
 .journal-cat-box {
-	color:#FFF;
+	color:#FF00FF;
 	text-transform: capitalize;
 	text-align: center;
 	font-weight:bold;
 	font-size: 14px;
-	width: 48px;
+	width: 64px;
 	margin:12px auto 0;
 	height:49px;
-	background:url('../../img/journal/category-icons/other.png');
+#    background: #FF0000;
+#	background:url('../../img/journal/category-icons/other.png');
 	line-height:49px;
 	text-overflow: ellipsis;
 }
 .journal-cat-box a {
-	color:#FFF;
+	color:#000;
 }
 #journal-articles-block .journal-article .journal-body span.teaser,#journal-articles-block .journal-article .journal-body span.the-article {
 	padding: 5px 0;
