@@ -15,25 +15,11 @@ tags: [php, python, web]
 3. `Web 运行时` 这部分负责的就是将 CGI 模式的文本输入流封装，产生 $_GET、$_POST、$_COOKIE 和一系列和 Web 相关的支持，同时在脚本执行时候将标准输出（echo打印出来的内容）也添加协议中的附加内容（Content-Type、状态码、响应头等）输出。
 4. `模版引擎` PHP 比较不同的是还内置模版引擎，这个模版引擎和其他语言中作为工具的模版有点不同，PHP 在语法解析的层面上是原生支持和模版混写的，所有没有包在 <?php?>中的文本都不作为语法解析，而是直接作为输出，PHP 的模版也籍此实现。
 
-
-
-
 `Python` 的目标是作为通用工具语言,一个新安装的python包含以下两个部分:
 
 1. 语言和语言运行时环境（Python 虚拟机）
 2. `标准库`（Python 的标准库是出名的给力，覆盖面极广）
 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-```ruby
-def foo
-  puts 'foo'
-end
-```
 
 不同于PHP, Python的 Web 并不作为语言的一部分实现.
 
@@ -55,6 +41,8 @@ Python 开发一定要用 `Web 框架`吗？不一定，但是用一个良好封
 ---
 
 ## 术语说明
+
+![架构图](/assets/img/python_web.png)
 
 `CGI` : CGI是为了保证web server传递过来的数据是标准格式的，方便CGI程序的编写者
 
