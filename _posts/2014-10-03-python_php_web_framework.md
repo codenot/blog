@@ -1,10 +1,9 @@
 ---
 layout: post
 category: 学习笔记
-title: python php web框架 说明
+title: Python PHP 的Web框架说明
 tags: [php, python, web]
 ---
-
 
 `PHP` 本质上是四部分组成.
 
@@ -20,18 +19,14 @@ tags: [php, python, web]
 1. 语言和语言运行时环境（Python 虚拟机）
 2. `标准库`（Python 的标准库是出名的给力，覆盖面极广）
 
-
 不同于PHP, Python的 Web 并不作为语言的一部分实现.
 
 ![Alt text](/assets/img/0_12839166559zGP.gif)
-
 
 > WSGI 定义的标准将 Web 应用划分为 `WSGI Application` 和 `WSGI Server`。
 > 
 >   * `WSGI Server`类似 PHP 的 `Web 运行时`，提供对标准输入输出流的封装，
 >   * `WSGI Application`则类似自己写的 PHP 应用，在封装后的环境中对具体应用进行 Web 开发。
-
-
 
 Python 开发一定要用 `Web 框架`吗？不一定，但是用一个良好封装了的 `WSGI Application 框架`可以让你不用自己去解析请求头、拼接响应头，如果不用 Web 框架相当于把 PHP 剥离到只能写脚本。而用一个框架，尤其是 `WSGI Application 框架`，不仅为低层协议提供了良好的封装，还能在 `WSGI` 公约下和广大 `WSGI Server` 协作。
 
